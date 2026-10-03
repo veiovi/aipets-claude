@@ -92,12 +92,12 @@ from this README. [Still image](docs/images/luna-band.png).*
 
 ### From the release bundle
 
-Download `aipets-claude-0.6.0-beta.zip` from the
+Download `aipets-claude-0.6.1-beta.zip` from the
 [latest release](https://github.com/veiovi/aipets-claude/releases/latest), then:
 
 ```sh
 mkdir -p ~/luna && cd ~/luna
-unzip /path/to/aipets-claude-0.6.0-beta.zip
+unzip /path/to/aipets-claude-0.6.1-beta.zip
 claude plugin marketplace add ~/luna/aipets-claude
 claude plugin install aipets@aipets
 ```
@@ -222,8 +222,10 @@ In prompt mode, Luna can also react immediately after `prompt.submit`.
   small PNG, and draws it in the desktop band as an `Svg` with pixelated
   scaling, redrawing ten times a second only while she is moving.
 - **The art is pinned.** `tools/verify-vendor.mjs` checks the SHA-256 of both
-  frame packs, the player and its loader before every build, plus the human
-  approval record for the fifteen performances. Provenance (source
+  frame packs, the player and its loader before every build, plus the runtime
+  review evidence for all fifteen performances. Version 0.6.1 repairs duplicate
+  arms in eight performances while preserving the original speaking foundation.
+  Provenance (source
   repositories and commits) is in `vendor/*/manifest.json` and
   [docs/implementation.md](docs/implementation.md).
 

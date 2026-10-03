@@ -20,11 +20,11 @@ for (const name of Object.keys(files)) {
 const sourceCommit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
 const dirty = Boolean(execFileSync('git', ['status', '--porcelain'], { cwd: root, encoding: 'utf8' }).trim());
 if (dirty) throw Error('Commit the release inputs before packaging.');
-files['aipets-claude/release.json'] = strToU8(JSON.stringify({ version: '0.6.0', sourceCommit, dirty,
+files['aipets-claude/release.json'] = strToU8(JSON.stringify({ version: '0.6.1', sourceCommit, dirty,
   status: 'public-beta', files: Object.fromEntries(Object.entries(files).map(([name, bytes]) =>
     [name, createHash('sha256').update(bytes).digest('hex')])) }, null, 2) + '\n');
 const bytes = zipSync(files, { level: 6, mtime: new Date('2026-01-01T00:00:00Z') });
 const out = join(root, '.local/releases'); mkdirSync(out, { recursive: true });
-writeFileSync(join(out, 'aipets-claude-0.6.0-beta.zip'), bytes);
-console.log(JSON.stringify({ file: '.local/releases/aipets-claude-0.6.0-beta.zip', bytes: bytes.length,
+writeFileSync(join(out, 'aipets-claude-0.6.1-beta.zip'), bytes);
+console.log(JSON.stringify({ file: '.local/releases/aipets-claude-0.6.1-beta.zip', bytes: bytes.length,
   sha256: createHash('sha256').update(bytes).digest('hex'), sourceCommit, dirty, entries: Object.keys(files).length }));
