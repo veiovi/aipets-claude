@@ -1,0 +1,308 @@
+{
+  "sourceRepository": "https://github.com/veiovi/aipet-esp32",
+  "sourceCommit": "8749f146fee2322302abcc84cd8b320ca45b2de1",
+  "sourcePath": "characters/luna/source/claude-companion",
+  "packSha256": "e8e305a78e1a5f72dc5ec5582bc49027a63f686201ea6d3c6973fa71adb56876",
+  "packBytes": 1150764,
+  "baseSha256": "4f4adaeb4870426c7411f62a3aa4b883771fe1e0481e99d748a0f186a5931b4a",
+  "originalFrameResourcesRetained": 101,
+  "foundationComposites": 175,
+  "originalPublicationUnchanged": true,
+  "canonicalFramesObserved": 150,
+  "actions": [
+    {
+      "id": "keyboard",
+      "index": 4,
+      "state": 5,
+      "frames": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "source": "bb7656a147568cdf3a7c23e07e74d9287f224bbfe51054eba9b8381646c6196c"
+    },
+    {
+      "id": "typewriter",
+      "index": 5,
+      "state": 5,
+      "frames": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "source": "33cc0f9068e80660efb48bc77b4d7a252a773cc24e47aec3858d507a0195f362"
+    },
+    {
+      "id": "pencil",
+      "index": 6,
+      "state": 5,
+      "frames": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "source": "55d3cb7e47057878b74b79d474dcccb685e17f96321e47c698c0214f5e73b5f7"
+    },
+    {
+      "id": "paper-planes",
+      "index": 7,
+      "state": 5,
+      "frames": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "source": "43070af1c207526cc466e8b2433c53b8a444c05bc923555476e7635e72f3375b"
+    },
+    {
+      "id": "bug-net",
+      "index": 8,
+      "state": 5,
+      "frames": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "source": "fc7334bbb6c359d17ba9b441b7287ccde6a93eeb9179b770401d2bd9828272a9"
+    },
+    {
+      "id": "abacus",
+      "index": 9,
+      "state": 5,
+      "frames": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "source": "8496a1c620d801f054d112b1506ad6d0d78d79da3ff0d7ef53929b56430a37ff"
+    },
+    {
+      "id": "whiteboard",
+      "index": 10,
+      "state": 5,
+      "frames": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "source": "9c6d32931f78d72460d6c8dbe92c7677f7b748900304131190b731e81f26f181"
+    },
+    {
+      "id": "yarn",
+      "index": 11,
+      "state": 5,
+      "frames": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "source": "bf353d14f74e5b412c56c9f86d0de06c7fd35d54fe49f0a17602ab28b23f6848"
+    },
+    {
+      "id": "magnifier",
+      "index": 12,
+      "state": 5,
+      "frames": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "source": "b3875d8839f1e691d14777c2c4ee29e670deccb1454608678ac1e2f7ca6784ea"
+    },
+    {
+      "id": "coffee",
+      "index": 13,
+      "state": 5,
+      "frames": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "source": "3f724129bdd8b82ab767a07c605f809d05a98ac01a2c4bc1a8f655d601a29a38"
+    },
+    {
+      "id": "antenna-listen",
+      "index": 14,
+      "state": 4,
+      "frames": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "source": "2f63dc0bc232b53353957f0d26f93893e0dc6a1b215272be7b839f78c6760887"
+    },
+    {
+      "id": "notes",
+      "index": 15,
+      "state": 4,
+      "frames": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "source": "1719578cb886b43e3bb1e81f733c2841d5aecb4cfdb24f263fef28f84226808c"
+    },
+    {
+      "id": "crystal-ball",
+      "index": 16,
+      "state": 5,
+      "frames": [
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230
+      ],
+      "source": "67a08c93d27b49cf4df79b0e7c6d907e6ec7260ee84e84d8c7a1808b1987e2a4"
+    },
+    {
+      "id": "puzzle",
+      "index": 17,
+      "state": 5,
+      "frames": [
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "source": "4209764a7f3a2f66df54390e9618257c1b5fb6a4159f365291f6e1fe4ed59bcb"
+    },
+    {
+      "id": "gear",
+      "index": 18,
+      "state": 5,
+      "frames": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "source": "95e7e25eadeff777a8d036ae3c2afbcf0ed8e55de0f58ca56d975c3df38fbe95"
+    }
+  ],
+  "canonicalActionsObserved": [
+    "antenna-listen",
+    "notes",
+    "keyboard",
+    "typewriter",
+    "pencil",
+    "paper-planes",
+    "bug-net",
+    "abacus",
+    "whiteboard",
+    "yarn",
+    "magnifier",
+    "coffee",
+    "crystal-ball",
+    "puzzle",
+    "gear"
+  ],
+  "approval": "human-approved",
+  "humanApproval": {
+    "date": "2026-10-03",
+    "statement": "no you can continue here all you asked is approved",
+    "packSha256": "e8e305a78e1a5f72dc5ec5582bc49027a63f686201ea6d3c6973fa71adb56876",
+    "scope": "All fifteen reviewed Claude companion performances, including coffee and antenna-listen. Original Luna publication unchanged."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "aipets",
+  "displayName": "AI Pets",
+  "version": "0.6.0",
+  "description": "Luna keeps you company in a small pane while Claude works, and comments on what you ask.",
+  "author": {
+    "name": "AI Pets"
+  },
+  "homepage": "https://aipets.com/blog/ai-pets-for-claude",
+  "repository": "https://github.com/veiovi/aipets-claude",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "aipets",
+  "description": "Luna, the AI Pets comedian for the Claude desktop app. https://aipets.com",
+  "owner": {
+    "name": "AI Pets"
+  },
+  "plugins": [
+    {
+      "name": "aipets",
+      "source": "./plugin",
+      "description": "Luna pops up above your prompt and cracks jokes about what you and Claude just did."
+    }
+  ]
+}
