@@ -1,0 +1,10 @@
+{
+  "sourceRepository": "veiovi/aipet-esp32",
+  "sourceCommit": "50a4afb7da0116cfe0e1b661810249bd8aa72356",
+  "character": "luna",
+  "version": "5.3.2",
+  "file": "luna.aipetframes",
+  "sha256": "4f4adaeb4870426c7411f62a3aa4b883771fe1e0481e99d748a0f186a5931b4a",
+  "size": 2643280,
+  "approval": "Existing approved publication pack, reproduced exactly from owner source. Extra companion art is not included yet."
+}

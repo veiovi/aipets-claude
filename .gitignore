@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+public/
+plugin/luna/
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.log
+.local/
+plugin/.claude-plugin/types/
+plugin/.claude-plugin/*.log
+plugin/tsconfig.json

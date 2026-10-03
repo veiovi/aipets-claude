@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0-sprite.3",
+  "commit": "fb571d522d5421a0000b28689c2b8b628cd653f2",
+  "sha256": "51b2b42b16b929c8ee60b355774751b6a47e77152f5591f1bf2bce8bbe4c07e7",
+  "wasmSha256": "b4758edc377f5e7915b94d7662ba8109e68c907b31f06c0381f34c353b7922bd",
+  "runtimeFiles": {
+    "binary.js": "c0079072bbb497c716cd92ae2fc2e5b6ac26e8f3b1f58e91cf13f4af0baed95b",
+    "cloud-animation-bundle.js": "254c426ce260bc9336f72fe0b26d503df1627b8abc612b6ff55105c25f4adc80",
+    "cloud-full-frame.js": "5215a730f6c16c4c47976ce26941598fbfee59f6741b279b829fee0a6bac6a1e",
+    "compiler.js": "176e65b894e53e0146a7fae0dc88123a141d7a9c136f303b1a4aff793b859409",
+    "constants.js": "086f8486d928652e0cc86d99fc7960cd29c131bc91085413b080ba70176c42c3",
+    "crc32.js": "06e848758ba764cd3829a459c67e77059ae778cf7e5ea08904ed1df4488e2464",
+    "effect-profile.js": "72a4b7413212b51862751b7df08102ba9f45de6299bc6c91a07afb3c536508d6",
+    "frame-codec-encode.js": "6fc843f34396f93353b181ee82a4674cb7f60c8e0930b2ab730a79cd8af9e617",
+    "frame-codec.js": "aa4f248144d81903b29c73a947e9a7a9ce199492e11a14b36854a238926ce7c4",
+    "frame_player.wasm": "b4758edc377f5e7915b94d7662ba8109e68c907b31f06c0381f34c353b7922bd",
+    "index.js": "1ce128c12e2a1768451f96a43585276cf00290461cbe7e09cb5f3f16fb08b34a",
+    "ingest/align.js": "2b88cf76a09d471d0d5c1dd43adc77d14d9023194b277c42997a4f0ff4aad158",
+    "ingest/palette.js": "c5a2d311f4f768499551a5d7ae186e5fcd09b5966c547b6a88a81ee2100eda53",
+    "ingest/png.js": "6f60107a95f9462636d4809f13d2c0e9efc989f0fdfdca6c32a0eb98be331234",
+    "ingest/rectify.js": "934f0747b0278b20dc3f512e0e89caf9a8d82b0c93ba5ff7c80a66e42bbc44fa",
+    "player.js": "9889505c658b1629ac7fa050236f94cdf0ea92a6f04bc446e8fb9471ed6f99fa",
+    "schema.js": "40cca59f298e54194366fd679176d07df82bcf7a70b1cc3eb8cb9c8f5d9cbaa2",
+    "sprite-authoring.js": "e7a7c765bc11f5589490271144bfce0c8faa88cd9a875a5d7c0ac305273f5338",
+    "wasm-player.js": "dda2a95673e87a9253e222740f51c6f402c39a43ce5879a183bb66bbf8ecfd01"
+  }
+}
