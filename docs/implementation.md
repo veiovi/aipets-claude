@@ -44,13 +44,13 @@ person (`composer` or `bridge` origin) count.
 ## Frames
 
 Mods have no WebAssembly, so `tools/render-luna.mjs` runs the canonical C/WASM
-player (`@aipet/frame-pack` with the companion-core loader) at build time and
+player (`@aipet/frame-pack`, including its WASM loader) at build time and
 records 10-frames-a-second clips:
 
-- the fifteen human-approved performances (keyboard, typewriter, pencil, paper
+- the fifteen performances (keyboard, typewriter, pencil, paper
   planes, bug net, abacus, whiteboard, yarn, magnifier, coffee, antenna,
   notes, crystal ball, puzzle, gear) from the acting pack, each from its first
-  frame until the runtime ends it; the pack and its approval record are pinned
+  frame until the runtime ends it; the pack and its review record are pinned
   in `vendor/luna/luna-work-draft.aipetframes` and `vendor/luna/draft-review/`;
 - five emotion moments (joy, excited, surprised, curious, shy) and a speaking
   loop (joy, synthetic speech envelope) from the Luna 5.3.2 publication pack,
@@ -69,6 +69,12 @@ uncompressed indexed PNG, 96 CSS pixels wide with pixelated scaling.
 The band redraws ten times a second only while Luna is visible.
 
 ## Evidence
+
+Version 0.6.1 repairs duplicated arms in notes, antenna-listen, crystal-ball,
+abacus, coffee, magnifier, pencil and puzzle. All fifteen source sheets and
+150 canonical acting frames were inspected. The repair receipt is hash-bound
+and explicitly records autonomous review, separate from the earlier human
+approval. All 175 original speaking/blink composites remain byte-identical.
 
 On 2026-10-03, with Claude Code 2.1.288, the Claude desktop app showed Luna
 above the prompt after a submitted prompt, with a model-written line, and collapsed her

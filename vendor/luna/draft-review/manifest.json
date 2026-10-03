@@ -1,9 +1,9 @@
 {
   "sourceRepository": "https://github.com/veiovi/aipet-esp32",
-  "sourceCommit": "8749f146fee2322302abcc84cd8b320ca45b2de1",
+  "sourceCommit": "fcf4e109d4d443d42ae4529acfd0249f2010b7e3",
   "sourcePath": "characters/luna/source/claude-companion",
-  "packSha256": "e8e305a78e1a5f72dc5ec5582bc49027a63f686201ea6d3c6973fa71adb56876",
-  "packBytes": 1150764,
+  "packSha256": "ce8362143d0b582b9149a6cdd1482135336c8872162da7b9ccd16217dfde56ad",
+  "packBytes": 1138716,
   "baseSha256": "4f4adaeb4870426c7411f62a3aa4b883771fe1e0481e99d748a0f186a5931b4a",
   "originalFrameResourcesRetained": 101,
   "foundationComposites": 175,
@@ -62,7 +62,7 @@
         129,
         130
       ],
-      "source": "55d3cb7e47057878b74b79d474dcccb685e17f96321e47c698c0214f5e73b5f7"
+      "source": "39b12ea322b07b3de635bce5742c21ba0c650965aabc7935ed859f67ee941c10"
     },
     {
       "id": "paper-planes",
@@ -116,7 +116,7 @@
         159,
         160
       ],
-      "source": "8496a1c620d801f054d112b1506ad6d0d78d79da3ff0d7ef53929b56430a37ff"
+      "source": "c763e3db92d4c4c139b9d304a0fc30bc6c23a6b0ab0f3178e364c9e955f24da7"
     },
     {
       "id": "whiteboard",
@@ -170,7 +170,7 @@
         189,
         190
       ],
-      "source": "b3875d8839f1e691d14777c2c4ee29e670deccb1454608678ac1e2f7ca6784ea"
+      "source": "1d1be56c3f96bf0728e507a4517f0066b07caf9246920ea85535a48cf7efdc7b"
     },
     {
       "id": "coffee",
@@ -188,7 +188,7 @@
         199,
         200
       ],
-      "source": "3f724129bdd8b82ab767a07c605f809d05a98ac01a2c4bc1a8f655d601a29a38"
+      "source": "2339dea9dce4b411464530b592ea22c4ad12e98624360d15adb118137d49d410"
     },
     {
       "id": "antenna-listen",
@@ -206,7 +206,7 @@
         209,
         210
       ],
-      "source": "2f63dc0bc232b53353957f0d26f93893e0dc6a1b215272be7b839f78c6760887"
+      "source": "1094b51292415a78fccac54235db0b109e006eac835fd068c4a770bcb839ff3c"
     },
     {
       "id": "notes",
@@ -224,7 +224,7 @@
         219,
         220
       ],
-      "source": "1719578cb886b43e3bb1e81f733c2841d5aecb4cfdb24f263fef28f84226808c"
+      "source": "31034bede8a3036b373856e4d7cee5f9b10d95c68b07d01ee06f9af2870f4cc4"
     },
     {
       "id": "crystal-ball",
@@ -242,7 +242,7 @@
         229,
         230
       ],
-      "source": "67a08c93d27b49cf4df79b0e7c6d907e6ec7260ee84e84d8c7a1808b1987e2a4"
+      "source": "7fee9fc617c9cf525be42ff189cd9d8b18c7cfebe4758076d24fd3fbffaff4e3"
     },
     {
       "id": "puzzle",
@@ -260,7 +260,7 @@
         239,
         240
       ],
-      "source": "4209764a7f3a2f66df54390e9618257c1b5fb6a4159f365291f6e1fe4ed59bcb"
+      "source": "741be6b6dbf2cf3be01b87121ddf124b811d2c82830743d6f8289be01bdbb9d8"
     },
     {
       "id": "gear",
@@ -298,8 +298,33 @@
     "puzzle",
     "gear"
   ],
-  "approval": "human-approved",
-  "humanApproval": {
+  "approval": "autonomous-repair-reviewed",
+  "repairReview": {
+    "date": "2026-10-03",
+    "reviewer": "Codex",
+    "mode": "autonomous",
+    "packSha256": "ce8362143d0b582b9149a6cdd1482135336c8872162da7b9ccd16217dfde56ad",
+    "sourceSheetsReviewed": 15,
+    "canonicalFramesInspected": 150,
+    "repairedActions": [
+      "notes",
+      "antenna-listen",
+      "crystal-ball",
+      "abacus",
+      "coffee",
+      "magnifier",
+      "pencil",
+      "puzzle"
+    ],
+    "checks": [
+      "Exactly two arms; no duplicate resting flippers",
+      "Coherent hands and prop contact",
+      "Antenna and lantern fit within every active frame",
+      "Canonical 120px output inspected",
+      "All 175 original speaking/blink composites unchanged"
+    ]
+  },
+  "previousHumanApproval": {
     "date": "2026-10-03",
     "statement": "no you can continue here all you asked is approved",
     "packSha256": "e8e305a78e1a5f72dc5ec5582bc49027a63f686201ea6d3c6973fa71adb56876",
