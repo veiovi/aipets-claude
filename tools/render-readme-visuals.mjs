@@ -126,6 +126,8 @@ for (let i = 0; i < clips.length; i++) {
   gridLayers.push(layer(await text(clips[i], 15, 136), x, y + 128))
 }
 const gridBase = await canvas(1008, 618).composite(gridLayers).png().toBuffer()
+await png('luna-clips.png', gridBase, await Promise.all(clips.map(async (clip, i) =>
+  layer(await luna(clip, 10), 24 + i % 7 * 140, 89 + Math.floor(i / 7) * 174))))
 await gif('luna-clips.gif', gridBase, 1008, 618, 60, async tick => Promise.all(clips.map(async (clip, i) =>
   layer(await luna(clip, tick), 24 + i % 7 * 140, 89 + Math.floor(i / 7) * 174))))
 
@@ -179,7 +181,7 @@ for (const dark of [false, true]) {
   privacySvg += rect(892, 713, 170, 54, C.cream, 10) + brandMark(917, 720)
   await writeFile(out + `what-luna-sees${suffix}.svg`, svg(1120, 820, privacySvg))
 }
-const generated = ['luna-hero.gif', 'luna-band.png', 'luna-band.gif', 'luna-stats.png', 'luna-clips.gif',
+const generated = ['luna-hero.gif', 'luna-band.png', 'luna-band.gif', 'luna-stats.png', 'luna-clips.gif', 'luna-clips.png',
   'how-it-works.svg', 'how-it-works-dark.svg', 'what-luna-sees.svg', 'what-luna-sees-dark.svg', 'social-preview.png', 'luna-demo.gif']
 for (const name of generated) {
   const bytes = (await stat(out + name)).size

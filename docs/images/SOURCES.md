@@ -33,7 +33,8 @@ quantization may slightly change colours; no frames are redrawn or masked.
 `luna-stats.png` uses fictional tool events processed by the real `recordTool`,
 `finishTurn` and `statRows` exports. The privacy graphics extract their prose
 from the README, removing Markdown formatting and reflowing it without changing
-the words. The original static `luna-clips.png` remains the gallery fallback.
+the words. The static `luna-clips.png` gallery fallback is regenerated from
+frame 10 of each recorded clip, so it stays aligned with animation repairs.
 
 `social-preview.png` is a 1280×640 upload-ready image. Repository social-preview
 settings are not changed by this generator. Its smiling pose with a playful
