@@ -1,6 +1,6 @@
 {
   "sourceRepository": "https://github.com/veiovi/aipet-esp32",
-  "sourceCommit": "2f301d5d3a14e43d9ad380b8c48ddd4903b2c885",
+  "sourceCommit": "fcf4e109d4d443d42ae4529acfd0249f2010b7e3",
   "sourcePath": "characters/luna/source/claude-companion",
   "packSha256": "ce8362143d0b582b9149a6cdd1482135336c8872162da7b9ccd16217dfde56ad",
   "packBytes": 1138716,
